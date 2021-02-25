@@ -1,7 +1,4 @@
 # M300-Services
-M300 - Dokumentation
-======
-
 
 ![M300-Banner](https://github.com/firedotwater/M300-Services/blob/main/images/Banner_M300_GitHub-Repository.png)
 
