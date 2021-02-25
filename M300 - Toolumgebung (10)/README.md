@@ -20,3 +20,26 @@ erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung einer vollständi
 | 20.10.2018    | Verknüpfungen angepasst                                                            |    FBE   |
 | 30.10.2018    | Kleinere Verbesserungen vorgenommen                                                |    FBE   |
 |      ...      | ...                                                                                |    ...   |
+
+#### Voraussetzungen
+* [X] Windows 10 (1909)
+* [X] GitHub Account
+* [X] Git Installer (Version 2.30.1)
+* [X] VirtualBox (Version 6.1.18)
+* [X] Vagrant (Version 2.2.14)
+* [X] Atom (Version 1.54.0)
+
+
+![](https://github.com/firedotwater/M300-Services/blob/main/images/GitHub_36x36.png "GitHub") 01 - GitHub Account 
+======
+
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_10_Toolumgebung#m300---toolumgebung-10)
+
+Als erster Schritt muss ein GitHub-Account eingerichtet werden. Dieser dient uns später als "Cloud-Speicher" unserer Dokumentation und weiteren Dateien.
+
+Folgende Arbeiten müssen gemacht werden:
+
+### Account erstellen
+***
+1. Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und Passwort)
+2. E-Mail zur Verifizierung des Kontos bestätigen und anschliessend auf GitHub anmelden
