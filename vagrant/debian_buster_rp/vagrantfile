@@ -1,0 +1,30 @@
+#Creator firedotwater
+#Date: 2021 02 07
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/buster64"
+  config.vm.provider "virtualbox" do |vb|
+end
+config.vm.provision "shell", inline: <<-SHELL
+  sudo apt install apache2 -y
+  sudo apt install libapache2-mod-proxy-html -y
+  sudo apt install libxml2-dev -y
+  sudo a2enmod proxy
+  sudo a2enmod proxy_html
+  sudo a2enmod proxy_http
+  sudo systemctl restart apache2
+  sudo echo "ServerName localhost" >> /etc/apache2/apache2.conf
+  sudo systemctl restart apache2
+  sudo touch /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "# Allgemeine Proxy Einstellungen" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "ProxyRequests Off" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "<Proxy *>" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "Order deny,allow" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "Allow from all" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "</Proxy>" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "# Weiterleitungen master" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "ProxyPass /master http://master" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+  sudo echo "ProxyPassReverse /master http://master" >> /etc/apache2/sites-enabled/001-reverseproxy.conf
+
+SHELL
+end
