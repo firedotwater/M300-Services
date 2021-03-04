@@ -1,6 +1,5 @@
-#Vagrant
+# Vagrant
 
-**CLI** <br>
 Vagrant wird über die Kommandozeile (CLI) bedient.
 
 Die wichtigsten Befehle sind:
