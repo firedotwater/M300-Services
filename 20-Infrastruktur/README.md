@@ -1,4 +1,4 @@
-# M300-Vagrant CLI
+#Vagrant
 
 **CLI** <br>
 Vagrant wird über die Kommandozeile (CLI) bedient.
