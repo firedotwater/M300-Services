@@ -12,4 +12,4 @@ Im Allgemeinen geht es um die Integration plattformüberbreifender Dienste in ei
 
 Der Unterricht durch Herr Kälin fokussiert auf das Zusammenspiel zwischen GitHub (oder GitLab), Git, Markdown Language (MDL), Virtual Box, Vagrant und Docker. Es geht primär um die Dynamisierung und Containerisierung von IT-Infrastrukturen, welche mittels Virtualisierungstechnologien wie Vagrant und Docker vorrangetrieben werden.
 
-Los geht's mit dem Einrichten der Toolumgebung ⇒ [KLICK-MICH](https://github.com/firedotwater/M300-Services/tree/main/M300%20-%20Toolumgebung%20(10)
+Los geht's mit dem Einrichten der Toolumgebung ⇒ [KLICK-MICH](https://github.com/firedotwater/M300-Services/tree/main/M300%20-%20Toolumgebung%20(10))
