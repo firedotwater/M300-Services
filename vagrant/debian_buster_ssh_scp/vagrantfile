@@ -1,0 +1,35 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.define "SRV01" do |srv01|
+    srv01.vm.box = "ubuntu/xenial64"
+	srv01.vm.provider "virtualbox" do |vb|
+	  vb.memory = "512"
+	end
+    srv01.vm.hostname = "SRV01"
+    srv01.vm.network "private_network", ip: "192.168.50.5"
+	srv01.vm.provision "shell", inline: <<-SHELL
+  sudo sed 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+  sudo ssh-keygen -t rsa -C "$HOSTNAME" -f "$HOME/.ssh/id_rsa" -P "" && cat ~/.ssh/id_rsa.pub
+  sudo touch SRV01.txt
+  sudo echo "Dieses File kommt vom SRV01" > SRV01.txt
+SHELL
+  end
+
+  config.vm.define "SRV02" do |srv02|
+    srv02.vm.box = "ubuntu/xenial64"
+    srv02.vm.hostname = "SRV02"
+    srv02.vm.network "private_network", ip:"192.168.50.6"
+	srv02.vm.provider "virtualbox" do |vb|
+	  vb.memory = "512"
+	end
+	srv02.vm.provision "shell", inline: <<-SHELL
+  sudo sed 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+  sudo ssh-keygen -t rsa -C "$HOSTNAME" -f "$HOME/.ssh/id_rsa" -P "" && cat ~/.ssh/id_rsa.pub
+  sudo touch SRV02.txt
+  sudo echo "Dieses File kommt vom SRV02" > SRV02.txt
+SHELL
+	end
+	config.vm.provision "shell", inline: <<-SHELL
+
+SHELL
+ end
