@@ -1,0 +1,29 @@
+#Creator firedotwater
+#Date: 2021 02 07
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/buster64"
+  config.vm.provider "virtualbox" do |vb|
+end
+config.vm.provision "shell", inline: <<-SHELL
+  sudo useradd -p $(openssl passwd -1 password) fabio
+  sudo useradd -p $(openssl passwd -1 password) laura
+  sudo useradd -p $(openssl passwd -1 password) yang
+  sudo groupadd Marketing
+  sudo groupadd Verkauf
+  sudo groupadd Informatik
+  sudo usermod -a -G Marketing laura
+  sudo usermod -a -G Verkauf yang
+  sudo usermod -a -G Informatik fabio
+  sudo touch test1.txt
+  sudo touch test2.txt
+  sudo touch test3.txt
+  sudo chgrp Marketing test1.txt
+  sudo chown laura test1.txt
+  sudo chgrp Verkauf test2.txt
+  sudo chown yang test2.txt
+  sudo chgrp Informatik test3.txt
+  sudo chown fabio test3.txt
+
+SHELL
+end
