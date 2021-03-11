@@ -8,8 +8,11 @@ Vagrant.configure("2") do |config|
     srv01.vm.hostname = "SRV01"
     srv01.vm.network "private_network", ip: "192.168.50.5"
 	srv01.vm.provision "shell", inline: <<-SHELL
-  sudo sed 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
-  sudo ssh-keygen -t rsa -C "$HOSTNAME" -f "$HOME/.ssh/id_rsa" -P "" && cat ~/.ssh/id_rsa.pub
+  echo '127.0.0.1 localhost srv01\n192.168.50.6 srv02' > /etc/hosts
+  su - vagrant -c "chmod 700 .ssh && ssh-keygen -t rsa -f .ssh/id_rsa -b 4096 -C vagrant@srv01 -P ''"
+  sudo echo 'vagrant:password' | sudo chpasswd
+  sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config; sudo systemctl restart sshd
+  #sudo echo "password" | cat /home/vagrant/.ssh/id_rsa.pub | ssh srv02 'cat>> /home/vagrant/.ssh/authorized_keys'
   sudo touch SRV01.txt
   sudo echo "Dieses File kommt vom SRV01" > SRV01.txt
 SHELL
@@ -23,13 +26,16 @@ SHELL
 	  vb.memory = "512"
 	end
 	srv02.vm.provision "shell", inline: <<-SHELL
-  sudo sed 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
-  sudo ssh-keygen -t rsa -C "$HOSTNAME" -f "$HOME/.ssh/id_rsa" -P "" && cat ~/.ssh/id_rsa.pub
+  echo '127.0.0.1 localhost srv02\n192.168.50.5 srv01' > /etc/hosts
+  su - vagrant -c "chmod 700 .ssh && ssh-keygen -t rsa -f .ssh/id_rsa -b 4096 -C vagrant@srv02 -P ''"
+  sudo echo 'vagrant:password' | sudo chpasswd
+  sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config; sudo systemctl restart sshd
   sudo touch SRV02.txt
   sudo echo "Dieses File kommt vom SRV02" > SRV02.txt
+
 SHELL
 	end
 	config.vm.provision "shell", inline: <<-SHELL
 
 SHELL
- end
+end
