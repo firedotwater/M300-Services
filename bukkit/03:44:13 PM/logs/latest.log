@@ -1,0 +1,16 @@
+[15:43:23] [Server thread/INFO]: Stopping the server
+[15:43:23] [Server thread/INFO]: Stopping server
+[15:43:23] [Server thread/INFO]: [BackpacksRemastered] Disabling BackpacksRemastered v2020.0.5
+[15:43:23] [Server thread/INFO]: [BackpacksRemastered] BackpacksRemastered v2020.0.5 (git: e55caa5) has been disabled.
+[15:43:23] [Server thread/INFO]: [Timber] Disabling Timber v1.0.9
+[15:43:23] [Server thread/INFO]: Saving players
+[15:43:23] [Server thread/INFO]: Saving worlds
+[15:43:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:43:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:43:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:43:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:43:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:43:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:43:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:43:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:43:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
