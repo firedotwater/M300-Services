@@ -1,0 +1,72 @@
+[21:21:21] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:21:22] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[21:21:24] [Worker-Main-2/INFO]: Loaded 7 recipes
+[21:21:27] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[21:21:27] [Server thread/INFO]: Loading properties
+[21:21:27] [Server thread/INFO]: Default game type: SURVIVAL
+[21:21:27] [Server thread/INFO]: Generating keypair
+[21:21:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:21:27] [Server thread/INFO]: Using epoll channel type
+[21:21:28] [Server thread/INFO]: This server is running CraftBukkit version 2991-Bukkit-f3f3094 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[21:21:29] [Server thread/INFO]: [Timber] Loading Timber v1.0.9
+[21:21:29] [Server thread/INFO]: [BackpacksRemastered] Loading BackpacksRemastered v2020.0.5
+[21:21:29] [Server thread/INFO]: Preparing level "world"
+[21:21:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:21:32] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:32] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:32] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:32] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:32] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:32] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:32] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:37] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[21:21:37] [Server thread/INFO]: Preparing spawn area: 3%
+[21:21:37] [Server thread/INFO]: Preparing spawn area: 3%
+[21:21:37] [Server thread/INFO]: Preparing spawn area: 3%
+[21:21:37] [Server thread/INFO]: Preparing spawn area: 3%
+[21:21:37] [Server thread/INFO]: Preparing spawn area: 3%
+[21:21:37] [Server thread/INFO]: Preparing spawn area: 3%
+[21:21:37] [Server thread/INFO]: Preparing spawn area: 3%
+[21:21:37] [Server thread/INFO]: Preparing spawn area: 3%
+[21:21:37] [Worker-Main-2/INFO]: Preparing spawn area: 34%
+[21:21:37] [Worker-Main-2/INFO]: Preparing spawn area: 37%
+[21:21:38] [Server thread/INFO]: Preparing spawn area: 47%
+[21:21:38] [Server thread/INFO]: Time elapsed: 9537 ms
+[21:21:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:21:40] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:40] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:40] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:40] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[21:21:40] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[21:21:41] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[21:21:41] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[21:21:42] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[21:21:42] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[21:21:43] [Server thread/INFO]: Preparing spawn area: 83%
+[21:21:43] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[21:21:44] [Worker-Main-2/INFO]: Preparing spawn area: 87%
+[21:21:45] [Worker-Main-2/INFO]: Preparing spawn area: 89%
+[21:21:45] [Server thread/INFO]: Preparing spawn area: 89%
+[21:21:46] [Worker-Main-2/INFO]: Preparing spawn area: 89%
+[21:21:46] [Worker-Main-2/INFO]: Preparing spawn area: 89%
+[21:21:47] [Worker-Main-2/INFO]: Preparing spawn area: 90%
+[21:21:47] [Worker-Main-2/INFO]: Preparing spawn area: 94%
+[21:21:47] [Server thread/INFO]: Time elapsed: 8775 ms
+[21:21:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:21:48] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:48] [Server thread/INFO]: Preparing spawn area: 22%
+[21:21:48] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[21:21:49] [Worker-Main-2/INFO]: Preparing spawn area: 95%
+[21:21:49] [Server thread/INFO]: Time elapsed: 1614 ms
+[21:21:49] [Server thread/INFO]: [Timber] Enabling Timber v1.0.9
+[21:21:49] [Server thread/INFO]: Timber Log Materials: [DARK_OAK_LOG, SPRUCE_LOG, BIRCH_LOG, JUNGLE_LOG, ACACIA_LOG, OAK_LOG]
+[21:21:49] [Server thread/INFO]: Timber Axe Materials: [NETHERITE_AXE, STONE_AXE, IRON_AXE, DIAMOND_AXE, WOODEN_AXE, GOLDEN_AXE]
+[21:21:49] [Server thread/INFO]: [BackpacksRemastered] Enabling BackpacksRemastered v2020.0.5
+[21:21:49] [Server thread/INFO]: [BackpacksRemastered] Detected NMS v1_16_R3. Using this for all NMS related functions.
+[21:21:50] [Server thread/INFO]: [BackpacksRemastered] BackpacksRemastered v2020.0.5 (git: e55caa5) was enabled in 0.96s!
+[21:21:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:21:50] [Server thread/INFO]: Done (21.278s)! For help, type "help"
+[21:22:57] [User Authenticator #1/INFO]: UUID of player Bitaii is bae7eb71-cbae-428c-9c3f-5f78d7eca6df
+[21:22:57] [Server thread/INFO]: Bitaii[/10.2.45.44:61624] logged in with entity id 163 at ([world]280.6742891743861, 62.0, -776.2639245117368)
+[21:23:28] [Server thread/INFO]: Bitaii lost connection: Disconnected
+[21:23:28] [Server thread/INFO]: Bitaii left the game
