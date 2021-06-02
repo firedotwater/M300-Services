@@ -1,65 +1,24 @@
-[15:47:19] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:47:20] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[15:47:22] [Worker-Main-2/INFO]: Loaded 7 recipes
-[15:47:25] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[15:47:25] [Server thread/INFO]: Loading properties
-[15:47:25] [Server thread/INFO]: Default game type: SURVIVAL
-[15:47:25] [Server thread/INFO]: Generating keypair
-[15:47:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:47:25] [Server thread/INFO]: Using epoll channel type
-[15:47:26] [Server thread/INFO]: This server is running CraftBukkit version 2991-Bukkit-f3f3094 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[15:47:27] [Server thread/INFO]: [Timber] Loading Timber v1.0.9
-[15:47:27] [Server thread/INFO]: [BackpacksRemastered] Loading BackpacksRemastered v2020.0.5
-[15:47:27] [Server thread/INFO]: Preparing level "world"
-[15:47:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:47:30] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:30] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:30] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:30] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:30] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:30] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[15:47:35] [Worker-Main-2/INFO]: Preparing spawn area: 23%
-[15:47:35] [Server thread/INFO]: Preparing spawn area: 23%
-[15:47:35] [Server thread/INFO]: Preparing spawn area: 23%
-[15:47:35] [Server thread/INFO]: Preparing spawn area: 23%
-[15:47:35] [Server thread/INFO]: Preparing spawn area: 23%
-[15:47:35] [Server thread/INFO]: Preparing spawn area: 23%
-[15:47:35] [Server thread/INFO]: Preparing spawn area: 23%
-[15:47:35] [Server thread/INFO]: Preparing spawn area: 23%
-[15:47:35] [Server thread/INFO]: Preparing spawn area: 23%
-[15:47:35] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[15:47:35] [Worker-Main-2/INFO]: Preparing spawn area: 99%
-[15:47:36] [Server thread/INFO]: Time elapsed: 9533 ms
-[15:47:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:47:38] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:38] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:38] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:38] [Server thread/INFO]: Preparing spawn area: 77%
-[15:47:39] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[15:47:39] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[15:47:40] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[15:47:40] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[15:47:41] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[15:47:41] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[15:47:42] [Worker-Main-2/INFO]: Preparing spawn area: 84%
-[15:47:42] [Worker-Main-2/INFO]: Preparing spawn area: 87%
-[15:47:43] [Worker-Main-2/INFO]: Preparing spawn area: 89%
-[15:47:43] [Worker-Main-2/INFO]: Preparing spawn area: 92%
-[15:47:44] [Worker-Main-2/INFO]: Preparing spawn area: 93%
-[15:47:44] [Worker-Main-2/INFO]: Preparing spawn area: 96%
-[15:47:45] [Worker-Main-2/INFO]: Preparing spawn area: 98%
-[15:47:45] [Server thread/INFO]: Time elapsed: 8198 ms
-[15:47:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:47:45] [Server thread/INFO]: Preparing spawn area: 0%
-[15:47:45] [Worker-Main-2/INFO]: Preparing spawn area: 30%
-[15:47:46] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[15:47:46] [Server thread/INFO]: Time elapsed: 1461 ms
-[15:47:46] [Server thread/INFO]: [Timber] Enabling Timber v1.0.9
-[15:47:46] [Server thread/INFO]: Timber Log Materials: [ACACIA_LOG, JUNGLE_LOG, BIRCH_LOG, DARK_OAK_LOG, OAK_LOG, SPRUCE_LOG]
-[15:47:46] [Server thread/INFO]: Timber Axe Materials: [WOODEN_AXE, IRON_AXE, NETHERITE_AXE, STONE_AXE, DIAMOND_AXE, GOLDEN_AXE]
-[15:47:46] [Server thread/INFO]: [BackpacksRemastered] Enabling BackpacksRemastered v2020.0.5
-[15:47:46] [Server thread/INFO]: [BackpacksRemastered] Detected NMS v1_16_R3. Using this for all NMS related functions.
-[15:47:47] [Server thread/INFO]: [BackpacksRemastered] BackpacksRemastered v2020.0.5 (git: e55caa5) was enabled in 1.01s!
-[15:47:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:47:47] [Server thread/INFO]: Done (20.535s)! For help, type "help"
+[01:38:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12498ms or 249 ticks behind
+[11:28:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5759ms or 115 ticks behind
+[11:29:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7857ms or 157 ticks behind
+[11:30:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5100ms or 102 ticks behind
+[11:33:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5346ms or 106 ticks behind
+[11:34:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5148ms or 102 ticks behind
+[11:35:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6562ms or 131 ticks behind
+[11:36:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6911ms or 138 ticks behind
+[11:37:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6073ms or 121 ticks behind
+[11:38:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5055ms or 101 ticks behind
+[11:39:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6997ms or 139 ticks behind
+[11:40:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5348ms or 106 ticks behind
+[11:40:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6552ms or 131 ticks behind
+[11:43:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6343ms or 126 ticks behind
+[11:44:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7188ms or 143 ticks behind
+[11:46:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5520ms or 110 ticks behind
+[11:49:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6394ms or 127 ticks behind
+[11:50:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6493ms or 129 ticks behind
+[11:52:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5841ms or 116 ticks behind
+[11:53:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5687ms or 113 ticks behind
+[11:54:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5118ms or 102 ticks behind
+[11:55:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6258ms or 125 ticks behind
+[13:21:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5182ms or 103 ticks behind
+[13:26:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5522ms or 110 ticks behind
